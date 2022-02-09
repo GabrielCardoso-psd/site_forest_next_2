@@ -1,8 +1,26 @@
 .bgsessao{
-    background-image: url("../../public/fundo-primeiro-bloco.jpg");
     background-size: cover;
     width: 100%;
     height: 600px;
     background: rgb(8,10,10);
-    background: linear-gradient(180deg, rgba(8,10,10,1) 35%, rgba(24,24,24,1) 100%);
+    background: linear-gradient(180deg, rgba(8,10,10,1) 35%, rgba(24,24,24,1)), url("../../public/fundo-primeiro-bloco.jpg");
+}
+
+.conheca{
+    color: white;
+    text-transform: uppercase;
+}
+
+.historia{
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-stroke-width: 0.5px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.historia2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 52px;
+    margin-top: -45px;
 }

@@ -24,7 +24,7 @@ export function Header () {
                         </Col>
 
                         <Col  className={css.botaoalign} sm={4}>
-                            <button>
+                            <button className={css.botao}>
                                 Entrar em contato
                             </button>
                         </Col>

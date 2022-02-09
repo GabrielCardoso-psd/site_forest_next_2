@@ -9,7 +9,7 @@ export function Nossahistoria () {
         <div>
             <div className={css.bgsessao}>
                 <Container fluid>
-                    <Row>
+                    <Row className={css.linhasessao}>
                         <Col>
                             <div>MÁQUINA</div>
                         </Col>

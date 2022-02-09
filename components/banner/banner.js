@@ -5,7 +5,9 @@ import {Container, Row, Col} from "reactstrap";
 export function Banner() {
     return (
         <div>
+            <div className={css.bannerimg}>
 
+            </div>
         </div>
     )
 }

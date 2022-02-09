@@ -7,7 +7,7 @@ import css from './nossahistoria.module.css'
 export function Nossahistoria () {
     return (
         <div>
-            <div className={bgsessao}>
+            <div className={css.bgsessao}>
 
             </div>
         </div>

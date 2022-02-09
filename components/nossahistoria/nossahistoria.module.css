@@ -1,3 +1,8 @@
 .bgsessao{
-    background-image: ;
+    background-image: url("../../public/fundo-primeiro-bloco.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background: rgb(8,10,10);
+    background: linear-gradient(180deg, rgba(8,10,10,1) 35%, rgba(24,24,24,1) 100%);
 }

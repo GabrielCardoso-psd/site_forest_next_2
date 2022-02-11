@@ -28,3 +28,13 @@
     color: white;
     background-color: black;
 }
+
+.details{
+    margin-top: 18px;
+    font-family: "Univers Light", sans-serif;
+    font-size: 55px;
+}
+
+.phrase{
+    font-family: "Univers Light", sans-serif;
+}

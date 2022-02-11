@@ -9,7 +9,7 @@ export function Pth18 () {
         <div className={css.bgsessao}>
             <Container fluid>
             <Row>
-                <Col>
+                <Col md={5}>
                     {/*<div className={css.pth1}>PTH 18</div>*/}
                     <div className={css.pth2}>PTH 18</div>
                     <div className={css.text}>
@@ -25,14 +25,17 @@ export function Pth18 () {
                     <button className={css.button}>
                         Saber mais
                     </button>
+                    <div className={css.details}>DETALHES DA MÁQUINA</div>
+                    <div className={css.phrase}>Conheça um poucp mais sobre a máquina PTH 18, para mais informações entre em contato</div>
                 </Col>
 
-                <Col>
+                <Col md={7}>
                     <div>
-                        <Image src={} />
+                        <Image src="/pth12-1.png" alt="pth 12" width={1300} height={900}/>
                     </div>
                 </Col>
             </Row>
+
             </Container>
         </div>
     )

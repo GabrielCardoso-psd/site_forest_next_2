@@ -1,7 +1,30 @@
 .bgsessao{
     background-color: #EEF0F2;
+    padding: 35px;
 }
 
-.pth1{
+.pth2{
+    font-family: "Univers Condensed", sans-serif;
+    font-size: 75px;
+}
 
+.text{
+    font-family: "Univers Light", sans-serif;
+    font-size: 20px;
+}
+
+.button{
+    margin-top: 20px;
+    padding: 8px 25px 8px 25px;
+    font-family: "Univers Light", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    transition: 0.4s;
+}
+
+.button:hover{
+    color: white;
+    background-color: black;
 }

@@ -10,9 +10,9 @@ export function Pth18 () {
             <Container fluid>
             <Row>
                 <Col>
-                    <div className={css.pth1}>PTH 18</div>
-                    <div>PTH 18</div>
-                    <div>
+                    {/*<div className={css.pth1}>PTH 18</div>*/}
+                    <div className={css.pth2}>PTH 18</div>
+                    <div className={css.text}>
                         A PTH-18 reúne toda a tecnologia que você procura em uma escavadeira para
                         o trabalho florestal. O motor à diesel C4.4 ACERT CAT® oferece o equilíbrio
                         perfeito entre durabilidade, eficiência de combustível e baixas emissões.
@@ -22,14 +22,14 @@ export function Pth18 () {
                         motor C4.4 é capaz de enfrentar as aplicações mais severas e proporcionar
                         um desempenho superior.
                     </div>
-                    <button>
+                    <button className={css.button}>
                         Saber mais
                     </button>
                 </Col>
 
                 <Col>
                     <div>
-                        aaa
+                        <Image src={} />
                     </div>
                 </Col>
             </Row>

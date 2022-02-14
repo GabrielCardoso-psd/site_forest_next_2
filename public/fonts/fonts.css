@@ -15,3 +15,10 @@
     src: url("public/fonts/univers-condensed.ttf") format("truetype");
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Univers';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../public/fonts/UniversLTStd-BoldCn.otf') format('truetype');
+}

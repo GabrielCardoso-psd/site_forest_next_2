@@ -1,8 +1,8 @@
 .background{
     background-image: url("../../public/fundo-quinto-bloco.jpg");
     background-size: cover;
-    padding-top: 95px;
-    padding-bottom: 95px;
+    padding: 95px 20px 95px 20px;
+
 }
 
 .divider{
@@ -26,4 +26,23 @@
     text-transform: uppercase;
     font-size: 40px;
     font-weight: bold;
+}
+
+.bgform{
+    background-color: black;
+    padding: 20px;
+}
+
+.titleform{
+    font-family: "Univers", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+    color: #737476;
+}
+
+.label{
+    color: white;
+    font-family: "Univers Condensed", sans-serif;
+    text-transform: uppercase;
 }

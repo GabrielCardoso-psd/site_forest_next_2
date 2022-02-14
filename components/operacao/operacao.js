@@ -18,7 +18,7 @@ export function Operacao () {
                     evitando trincas e quebras de tubulação e rompimentos de mangueiras na colheita. Essa máquina
                     proporciona alto desempenho!
                 </div>
-                <button>ler mais</button>
+                <button className={css.button}>ler mais</button>
             </Col>
             
             <Col>

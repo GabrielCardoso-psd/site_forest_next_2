@@ -6,4 +6,15 @@
 
 .operacao{
     font-family: "Univers Condensed", sans-serif;
+    text-transform: uppercase;
+}
+
+.button{
+    padding: 2px 40px 2px 40px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
 }

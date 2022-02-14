@@ -6,7 +6,6 @@ import {Banner} from "../components/banner/banner";
 import {Nossahistoria} from "../components/nossahistoria/nossahistoria";
 import {Pth18} from "../components/pth18/pth18";
 import {Operacao} from "../components/operacao/operacao";
-import {Form} from "../components/form/form";
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
         <Nossahistoria/>
         <Pth18/>
         <Operacao/>
-        <Form/>
     </div>
   )
 }

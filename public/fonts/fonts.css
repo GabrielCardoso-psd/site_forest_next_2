@@ -1,11 +1,17 @@
 @font-face {
     font-family: "Univers Light Condensed";
-    src: url("public/fonts/univers-light-condensed.ttf");
+    src: url("public/fonts/univers-light-condensed.ttf") format("truetype");
     font-style: normal;
 }
 
 @font-face {
     font-family: "Univers Condensed Bold";
-    src: url("public/fonts/univers-condensed-bold.ttf");
+    src: url("public/fonts/univers-condensed-bold.ttf") format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Univers Condensed";
+    src: url("public/fonts/univers-condensed.ttf") format("truetype");
     font-style: normal;
 }

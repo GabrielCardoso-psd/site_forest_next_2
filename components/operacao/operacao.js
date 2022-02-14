@@ -11,7 +11,7 @@ export function Operacao () {
         <Row className={css.row}>
             <Col className={css.column-1}>
                 <h6>O que você precisa para a sua</h6>
-                <h1>Operação</h1>
+                <h1 className={css.operacao}>Operação</h1>
                 <div>
                     A PTH-18 supera os competidores da sua classe de tamanho em capacidade, devido sua lança e
                     braço serem projetados para manter as tubulações e mangueiras hidráulicas totalmente protegidas,

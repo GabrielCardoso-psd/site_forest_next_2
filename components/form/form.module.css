@@ -8,16 +8,22 @@
 .divider{
     background-color: white;
     height: 1px;
-    width: 10%;
+    width: 18%;
 }
 
 .text2{
     color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: "Univers", sans-serif;
+    font-weight: bold;
+    margin-top: -30px;
 }
 
 .text1{
-    color: white;
+    color: #2B2C29;
     font-family: "Univers", sans-serif;
     text-transform: uppercase;
-    font-size: 55px;
+    font-size: 40px;
+    font-weight: bold;
 }

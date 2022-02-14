@@ -8,7 +8,13 @@ export function Form () {
     return (
         <div className={css.background}>
             <Container fluid>
-
+                <div>
+                    Preencha o formulário
+                </div>
+                <div>
+                    Fale com a PESA Forest
+                </div>
+                <div className={css.divider}></div>
             </Container>
         </div>
     )

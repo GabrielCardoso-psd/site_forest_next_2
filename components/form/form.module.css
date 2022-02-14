@@ -4,3 +4,9 @@
     padding-top: 95px;
     padding-bottom: 95px;
 }
+
+.divider{
+    background-color: white;
+    height: 1px;
+    width: 10%;
+}

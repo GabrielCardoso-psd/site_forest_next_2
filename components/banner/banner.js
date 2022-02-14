@@ -6,7 +6,6 @@ export function Banner() {
     return (
         <div>
             <div className={css.bannerimg}>
-
             </div>
         </div>
     )

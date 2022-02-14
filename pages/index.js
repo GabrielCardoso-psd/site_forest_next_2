@@ -5,6 +5,7 @@ import {Header} from "../components/header/header";
 import {Banner} from "../components/banner/banner";
 import {Nossahistoria} from "../components/nossahistoria/nossahistoria";
 import {Pth18} from "../components/pth18/pth18";
+import {Operacao} from "../components/operacao/operacao";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Banner/>
         <Nossahistoria/>
         <Pth18/>
+        <Operacao/>
     </div>
   )
 }

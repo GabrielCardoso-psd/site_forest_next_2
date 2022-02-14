@@ -3,3 +3,9 @@
     src: url("public/fonts/univers-light-condensed.ttf");
     font-style: normal;
 }
+
+@font-face {
+    font-family: "Univers Condensed Bold";
+    src: url("public/fonts/univers-condensed-bold.ttf");
+    font-style: normal;
+}

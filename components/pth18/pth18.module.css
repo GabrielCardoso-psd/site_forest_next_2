@@ -1,15 +1,16 @@
 .bgsessao{
-    background-color: #EEF0F2;
+    background: rgb(249,250,251);
+    background: linear-gradient(225deg, rgba(249,250,251,1) 35%, rgba(209,213,219,1) 100%);
     padding: 35px;
 }
 
 .pth2{
-    font-family: "Univers Condensed", sans-serif;
+    font-family: Univers Condensed, sans-serif;
     font-size: 75px;
 }
 
 .text{
-    font-family: "Univers Light", sans-serif;
+    font-family: "Univers Condensed", sans-serif;
     font-size: 20px;
 }
 
@@ -38,3 +39,35 @@
 .phrase{
     font-family: "Univers Light", sans-serif;
 }
+
+.tabs{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.current{
+    border: solid 1px;
+    padding: 8px 15px 8px 15px;
+    font-family: "Univers Condensed", sans-serif;
+    background: rgb(55,65,81);
+    background: linear-gradient(163deg, rgba(55,65,81,1) 35%, rgba(0,0,0,1) 100%);
+    color: white;
+    position: relative;
+}
+
+.tab2{
+    border: solid 1px;
+    padding: 8px 15px 8px 15px;
+}
+
+.tab3{
+    border: solid 1px;
+    padding: 8px 15px 8px 15px;
+}
+
+.tabs > li {
+    padding: 0.5em 1em;
+}
+
+.content{}

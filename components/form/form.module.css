@@ -1,0 +1,6 @@
+.background{
+    background-image: url("../../public/fundo-quinto-bloco.jpg");
+    background-size: cover;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}

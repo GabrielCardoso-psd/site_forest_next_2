@@ -11,7 +11,7 @@ export function Pth18 () {
             <Container fluid>
             <Row>
                 <Col md={5}>
-                    {/*<div className={css.pth1}>PTH 18</div>*/}
+                    <div className={css.pth1}>PTH 18</div>
                     <div className={css.pth2}>PTH 18</div>
                     <div className={css.text}>
                         A PTH-18 reúne toda a tecnologia que você procura em uma escavadeira para

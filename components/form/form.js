@@ -6,8 +6,15 @@ import css from './form.module.css'
 
 export function Form () {
     return (
-        <div>
-            
+        <div className={css.background}>
+            <Container fluid>
+                <div>
+                    Preencha o formulário
+                </div>
+                <div>
+                    Fale com a PESA Forest
+                </div>
+            </Container>
         </div>
     )
 }

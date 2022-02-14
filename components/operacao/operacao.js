@@ -6,14 +6,26 @@ import css from './operacao.module.css'
 
 export function Operacao () {
     return (
+        <div className={css.background}>
         <Container fluid>
-        <Row>
-            <Col>
-                <div>O que você precisa para a sua</div>
-                <div>Operação</div>
+        <Row className={css.row}>
+            <Col className={css.column-1}>
+                <h6>O que você precisa para a sua</h6>
+                <h1>Operação</h1>
+                <div>
+                    A PTH-18 supera os competidores da sua classe de tamanho em capacidade, devido sua lança e
+                    braço serem projetados para manter as tubulações e mangueiras hidráulicas totalmente protegidas,
+                    evitando trincas e quebras de tubulação e rompimentos de mangueiras na colheita. Essa máquina
+                    proporciona alto desempenho!
+                </div>
                 <button>ler mais</button>
+            </Col>
+            
+            <Col>
+                <Image src="/terceiro-bloco.c60f7da.png" alt="pth 12" width={650} height={650}/>
             </Col>
         </Row>
         </Container>
+        </div>
     )
 }

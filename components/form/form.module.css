@@ -1,8 +1,8 @@
 .background{
-    background-image: url("../../public/fundo-quinto-bloco.jpg");
+    background-image: url("../../public/fundo-quinto-bloco-2.jpg");
     background-size: cover;
-    padding: 95px 20px 95px 20px;
-    
+    padding: 95px 35px 95px 35px;
+
 
 }
 
@@ -27,7 +27,7 @@
 }
 
 .text1{
-    color: #2B2C29;
+    color: #9CA3AF;
     font-family: "Univers", sans-serif;
     text-transform: uppercase;
     font-size: 40px;

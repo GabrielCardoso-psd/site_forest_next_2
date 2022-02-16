@@ -7,6 +7,7 @@ import {Nossahistoria} from "../components/nossahistoria/nossahistoria";
 import {Pth18} from "../components/pth18/pth18";
 import {Operacao} from "../components/operacao/operacao";
 import {Form} from "../components/form/form";
+import {Footer} from "../components/footer/footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Pth18/>
         <Operacao/>
         <Form/>
+        <Footer/>
     </div>
   )
 }

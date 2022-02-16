@@ -12,7 +12,6 @@ export function Footer (){
                 <div>
                     <Col>
                         <div>Nos acompanhe nas redes</div>
-                        <FontAwesomeIcon icon={solid('user-secret')} />
                     </Col>
                 </div>
             </Container>

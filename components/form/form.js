@@ -23,21 +23,21 @@ export function Form () {
                                 <div>
                                 <label className={css.label} htmlFor="">
                                     Nome:<br/>
-                                    <input placeholder="Ex.: Gabriel Cardoso" type="text" name={name}/>
+                                    <input placeholder="Ex.: Gabriel Cardoso" type="text"/>
                                 </label>
                                 </div>
 
                                 <div>
                                 <label htmlFor="">
                                     E-mail:<br/>
-                                    <input placeholder="Ex.: gabriel@gmail.com" type="text" name={name}/>
+                                    <input placeholder="Ex.: gabriel@gmail.com" type="text"/>
                                 </label>
                                 </div>
 
                                 <div>
                                 <label htmlFor="">
                                     Mensagem:<br/>
-                                    <input placeholder="Ex.: Olá!" type="text" name={name}/>
+                                    <input placeholder="Ex.: Olá!" type="text"/>
                                 </label>
                                 </div>
                             </form>

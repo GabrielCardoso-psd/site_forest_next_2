@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from "next/image";
 import { Container, Row, Col } from 'reactstrap';
 import css from './footer.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function Footer (){
     return(
@@ -12,6 +12,7 @@ export function Footer (){
                 <div>
                     <Col>
                         <div>Nos acompanhe nas redes</div>
+
                     </Col>
                 </div>
             </Container>

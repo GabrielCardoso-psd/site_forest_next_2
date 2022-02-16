@@ -31,6 +31,9 @@
     border: solid 1px;
     color: white;
     padding: 15px;
+    cursor: pointer;
+    font-family: "Univers Condensed", sans-serif;
+    font-size: 20px;
 }
 
 .botao:hover{
